@@ -34,5 +34,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13"
+  },
+  "homepage": "https://githae1337.github.io/PriorityCalculator",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
 }
