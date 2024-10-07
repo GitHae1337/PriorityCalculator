@@ -15,7 +15,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -40,7 +42,5 @@
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.13"
   },
-  "homepage": "https://githae1337.github.io/PriorityCalculator",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+  "homepage": "https://githae1337.github.io/PriorityCalculator"
 }
