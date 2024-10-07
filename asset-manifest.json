@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/PriorityCalculator/static/css/main.38878acf.css",
+    "main.js": "/PriorityCalculator/static/js/main.7d4c0451.js",
+    "static/js/453.eb5191de.chunk.js": "/PriorityCalculator/static/js/453.eb5191de.chunk.js",
+    "index.html": "/PriorityCalculator/index.html",
+    "main.38878acf.css.map": "/PriorityCalculator/static/css/main.38878acf.css.map",
+    "main.7d4c0451.js.map": "/PriorityCalculator/static/js/main.7d4c0451.js.map",
+    "453.eb5191de.chunk.js.map": "/PriorityCalculator/static/js/453.eb5191de.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38878acf.css",
+    "static/js/main.7d4c0451.js"
+  ]
+}
