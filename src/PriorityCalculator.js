@@ -58,7 +58,7 @@ const PriorityCalculator = () => {
     if (dueDate.type === 'today') return 1;
     if (dueDate.type === 'date') {
       const diff = Math.ceil((new Date(dueDate.value) - new Date()) / (1000 * 60 * 60 * 24));
-      return diff > 10 ? 1 : diff + 1;
+      return diff > 10 ? 10 : diff + 1;
     }
     if (dueDate.type === 'custom') return parseInt(dueDate.value) || 1;
     return 1;
